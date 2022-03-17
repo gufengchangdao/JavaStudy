@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.io.FileInputStream</OriginalElement>
+  <nodes>
+    <node x="642.0000000000001" y="242.0">java.io.FilterInputStream</node>
+    <node x="630.5000000000001" y="320.0">java.io.BufferedInputStream</node>
+    <node x="418.0000000000001" y="242.0">java.io.ByteArrayInputStream</node>
+    <node x="0.0" y="242.0">java.io.PipedInputStream</node>
+    <node x="196.0" y="242.0">java.io.SequenceInputStream</node>
+    <node x="669.0000000000001" y="80.0">java.io.Closeable</node>
+    <node x="833.0000000000001" y="242.0">javax.sound.sampled.AudioInputStream</node>
+    <node x="1211.0" y="242.0">java.io.ObjectInputStream</node>
+    <node x="1031.0" y="242.0">java.io.FileInputStream</node>
+    <node x="906.1060606060607" y="0.0">java.lang.AutoCloseable</node>
+    <node x="659.5000000000001" y="162.0">java.io.InputStream</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="727.5000000000001" y="54.0" />
+      <point x="943.6060606060607" y="54.0" />
+      <point x="-37.5" y="14.0" />
+    </edge>
+    <edge source="java.io.ObjectInputStream" target="java.lang.AutoCloseable" relationship="REALIZATION">
+      <point x="45.5" y="-14.0" />
+      <point x="1347.5" y="216.0" />
+      <point x="1307.0" y="216.0" />
+      <point x="1307.0" y="54.0" />
+      <point x="1018.6060606060607" y="54.0" />
+      <point x="37.5" y="14.0" />
+    </edge>
+    <edge source="java.io.FilterInputStream" target="java.io.InputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.InputStream" target="java.io.Closeable" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.FileInputStream" target="java.io.InputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1111.0" y="216.0" />
+      <point x="727.5000000000001" y="216.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.SequenceInputStream" target="java.io.InputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="297.0" y="216.0" />
+      <point x="727.5000000000001" y="216.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.ObjectInputStream" target="java.io.InputStream" relationship="GENERALIZATION">
+      <point x="-45.5" y="-14.0" />
+      <point x="1256.5" y="216.0" />
+      <point x="727.5000000000001" y="216.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="javax.sound.sampled.AudioInputStream" target="java.io.InputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="922.0000000000001" y="216.0" />
+      <point x="727.5000000000001" y="216.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.ByteArrayInputStream" target="java.io.InputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="520.0000000000001" y="216.0" />
+      <point x="727.5000000000001" y="216.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.BufferedInputStream" target="java.io.FilterInputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.PipedInputStream" target="java.io.InputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="88.0" y="216.0" />
+      <point x="727.5000000000001" y="216.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="0.8527954706298655" showDependencies="false" x="696.4999999999999" y="173.99999999999994" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

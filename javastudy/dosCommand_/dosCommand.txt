@@ -1,0 +1,64 @@
+DOS(磁盘操作系统)
+
+DOS的基本原理
+    DOS系统
+        1. 接受指令
+        2. 解析指令
+        3. 执行指令
+
+操作
+    打开
+        选择一个文件下，在上边导航里输入cmd回车打开 cmd.exe
+    编译Java文件
+        javac COSTest.java
+        COSTest.java为当前目录下的java文件，回车后就会生存class文件
+    运行java文件
+        java COSTest.class
+
+    提供 Windows 命令的帮助信息。
+        help
+    创建一个目录
+        md 123 456
+        创建名为123和456两个目录
+    删除一个目录
+        rd 123 456
+        目录不为空不能删除
+    创建文件/输入内容
+        echo null>123/temp.txt
+        创建名为temp.txt的空文件
+        echo "你 好 啊">123/temp.txt
+        echo TRUE>123/temp.txt
+        创建文件并输入内容 "TRUE"，覆盖写
+    删除文件
+        del 123/temp.txt
+    拷贝文件
+        copy 123/temp.txt d:\temp.txt
+        源文件 目的文件
+    剪切
+        move 123/temp.txt d:\temp.txt
+
+    查看当前目录下有什么内容
+        dir
+        查看当前目录下
+        dir d:\123
+        查看当前目录中123目录下
+    切换到其他目录
+        cd 123
+        切换到123目录下
+        cd ..
+        切换到上一级
+        cd /C d
+        由c盘切换到d盘中
+        cd /d d:
+        切换到根目录
+    查看指定目录下的所有子级目录
+        D:\>tree "My tool"
+        My tool要用双引号括起来
+    清屏
+        cls
+
+
+
+
+
+

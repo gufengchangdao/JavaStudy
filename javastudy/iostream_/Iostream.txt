@@ -1,0 +1,89 @@
+节点流
+    从一个特定的数据源（节点）读写数据（如：文件、内存）的类叫做节点流类
+        类型                                    字节流                                     字符流
+        File(文件)                FileInputStream、FileOutputStream                FileReader、FileWriter
+    Memory Array(数组)        ByteArrayInputStream ByteArrayOutputStream      CharArrayReader CharArrayWriter
+    Memory String(字符串)                                                           StringReader、StringWriter
+        Piped(管道)               PipedInputStream PipedOutputStream              PipedReader PipedWriter
+
+处理流
+    也叫包装流，是"连接"在已存在的流(节点流或处理流)之上，为程序提供更为强大的读写功能，如BufferedReader BufferedWriter
+        public class BufferedWriter extends Writer {
+            private Writer out;
+            ...}
+        BufferedWriter里面有属性Writer，即只要是Writer的子类就可以封装进去，并且会用动态绑定机制调用子类的方法，使得操作更加灵活
+
+序列化和反序列化
+    序列化就是在保存数据时，保存数据的值和数据类型
+    反序列化就是在恢复数据时，恢复数据的值和数据类型
+    需要让某个对象支持序列化机制，则必须让其类是可序列化的，该类必须实现两个接口之一：
+        Serializable    //这是一个标记接口，推荐使用
+        Externalizable
+
+转换流 InputStreamReader OutputStreamWriter
+    InputStreamReader可以将InputStream(字节流)包装为成(转换)Reader(字符流)
+    OutputStreamWriter可以将OutputStream(字节流)包装为成(转换)Writer(字符流)
+    编码不对而导致的文件乱码：如果源文本文件和读取的编码格式不同就会产生乱码现象
+        解决：利用转换流将字节流转换为指定编码格式的文本流，再利用字符的处理流进行输出
+    编码格式有 utf-8、gbk、gb2312、ISO8859-1等
+
+------------------------------------------------------------------------------------------------
+节点流:
+    InputStream:
+        FileInputStream(File、String):以字节的方式读取一个字节、字节数组
+        PipedInputStream
+        ObjectInputStream(InputStream):反序列化，恢复先前序列化的对象
+        ByteArrayInputStream
+        SequenceInputStream
+        FilterInputStream:
+            BufferedInputStream(InputStream):提供更高效的读取，还可以进行标记和回到标记的位置重新读取
+            DigestInputStream
+            DataInputStream
+    OutputStream:
+        FileOutputStream(File、String)提供更高效的读取，还可以进行标记和回到标记的位置重新读取
+        PipedOutputStream
+        ObjectOutputStream(InputStream)
+        ByteArrayOutputStream
+        FilterOutputStream:
+            BufferedOutputStream(OutputStream)
+            DigestOutputStream
+            DataOutputStream
+            PrintStream(File、String、OutputStream):方便打印各种数据值(可以是显示屏)，properties也需要用这个类
+字符流:
+    Reader:
+        InputStreamReader:(InputStream):读取字节，并使用指定的charset将其解码为字符，输出默认是UTF-8，如果读取和输出编码不一致的话会乱码
+            FileReader
+        BufferedReader(Reader):提供更高效的读取，还可以进行标记和回到标记的位置重新读取，有读取一行的方法
+        CharArrayReader
+        FilterReader
+        PipedReader
+        StringReader
+    Writer:
+        OutputStreamWriter:(OutputStream)
+            FileWriter
+        BufferedWriter(Writer)提供更高效的读取，还可以进行标记和回到标记的位置重新读取，有智能换行方法
+        CharArrayWriter
+        FilterWriter
+        PipedWriter
+        StringWriter
+        PrintWriter(File、String、OutputStream、writer):
+
+文件:File(String):创建、删除文件/目录，得到文件相关信息
+属性:properties:把键值对打印到指定输出流、获取键值对
+
+IO流关闭问题
+    先开后关(或者关闭输入输出流操作都是在读写完成后的finally中执行的，不按照顺序也没什么)
+    只关处理流，不关节点流
+    使用socket时，关闭socket即可，不需关闭get得到的流
+
+Buffered...流的flush问题
+
+ObjectInputStream 在网络编程的死锁问题
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+1月 06, 2022 1:28:26 下午 javastudy.errorProcess.logger_.jul.logger.JULTest test03
+严重: severe
+1月 06, 2022 1:28:26 下午 javastudy.errorProcess.logger_.jul.logger.JULTest test03
+警告: warning
+1月 06, 2022 1:28:26 下午 javastudy.errorProcess.logger_.jul.logger.JULTest test03
+信息: info
+1月 06, 2022 1:28:26 下午 javastudy.errorProcess.logger_.jul.logger.JULTest test03
+配置: config
+1月 06, 2022 1:28:26 下午 javastudy.errorProcess.logger_.jul.logger.JULTest test03
+详细: fine
+1月 06, 2022 1:28:26 下午 javastudy.errorProcess.logger_.jul.logger.JULTest test03
+较详细: finer
+1月 06, 2022 1:28:26 下午 javastudy.errorProcess.logger_.jul.logger.JULTest test03
+非常详细: finest
+------------- 自定义日志信息格式 -------------
+来源：Test main
+name：test01
+级别：较详细
+内容：THROW
+异常：
+java.lang.RuntimeException: 我错了
+	at javastudy.errorProcess.logger_.jul.formatter.FormatterTest.main(MyFormatter.java:88)
+-----------------  日志结束 -----------------

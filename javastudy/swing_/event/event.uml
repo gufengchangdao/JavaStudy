@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.awt.event.MouseAdapter</OriginalElement>
+  <nodes>
+    <node x="612.75" y="80.0">java.awt.event.KeyListener</node>
+    <node x="767.75" y="80.0">java.awt.event.ActionListener</node>
+    <node x="311.0" y="315.0">java.awt.event.KeyEvent</node>
+    <node x="611.25" y="160.0">java.awt.event.KeyAdapter</node>
+    <node x="0.0" y="315.0">java.awt.event.ActionEvent</node>
+    <node x="155.0" y="315.0">java.awt.event.MouseEvent</node>
+    <node x="155.0" y="235.0">java.util.EventObject</node>
+    <node x="443.00000000000006" y="0.0">java.util.EventListener</node>
+    <node x="765.25" y="160.0">javax.swing.AbstractAction</node>
+    <node x="0.0" y="80.0">java.awt.event.MouseMotionListener</node>
+    <node x="246.43478260869568" y="160.0">java.awt.event.MouseAdapter</node>
+    <node x="223.00000000000006" y="80.0">java.awt.event.MouseWheelListener</node>
+    <node x="439.00000000000006" y="80.0">java.awt.event.MouseListener</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.awt.event.MouseListener" target="java.util.EventListener" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.event.MouseMotionListener" target="java.util.EventListener" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="101.5" y="55.0" />
+      <point x="515.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.event.KeyAdapter" target="java.awt.event.KeyListener" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="javax.swing.AbstractAction" target="java.awt.event.ActionListener" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.event.KeyEvent" target="java.util.EventObject" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="368.5" y="290.0" />
+      <point x="223.0" y="290.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.event.MouseWheelListener" target="java.util.EventListener" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="321.00000000000006" y="55.0" />
+      <point x="515.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.event.KeyListener" target="java.util.EventListener" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="678.25" y="55.0" />
+      <point x="515.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.event.ActionListener" target="java.util.EventListener" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="843.25" y="55.0" />
+      <point x="515.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.event.MouseEvent" target="java.util.EventObject" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.event.MouseAdapter" target="java.awt.event.MouseMotionListener" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="324.4347826086957" y="135.0" />
+      <point x="101.5" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.event.ActionEvent" target="java.util.EventObject" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="67.5" y="290.0" />
+      <point x="223.0" y="290.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.event.MouseAdapter" target="java.awt.event.MouseWheelListener" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="324.4347826086957" y="135.0" />
+      <point x="321.00000000000006" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.event.MouseAdapter" target="java.awt.event.MouseListener" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="324.4347826086957" y="135.0" />
+      <point x="515.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="1.0" showDependencies="false" x="461.0" y="172.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

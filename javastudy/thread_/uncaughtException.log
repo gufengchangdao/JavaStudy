@@ -1,0 +1,6 @@
+3月 05, 2022 2:04:41 下午 java.lang.Thread run
+较详细: THROW
+java.lang.ArrayIndexOutOfBoundsException
+	at javastudy.thread_.thread.UncaughtExceptionHandlerTest.lambda$test02$1(UncaughtExceptionHandlerTest.java:36)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+

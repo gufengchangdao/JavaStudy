@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>javax.swing.JFrame</OriginalElement>
+  <nodes>
+    <node x="171.75" y="234.0">javax.swing.JComponent</node>
+    <node x="248.75" y="312.0">javax.swing.JButton</node>
+    <node x="6.5" y="312.0">java.awt.Frame</node>
+    <node x="0.0" y="234.0">java.awt.Window</node>
+    <node x="121.0" y="0.0">java.lang.Object</node>
+    <node x="110.5" y="156.0">java.awt.Container</node>
+    <node x="4.0" y="390.0">javax.swing.JFrame</node>
+    <node x="103.5" y="78.0">java.awt.Component</node>
+    <node x="134.75" y="312.0">javax.swing.JPanel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="javax.swing.JFrame" target="java.awt.Frame" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.awt.Component" target="java.lang.Object" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="javax.swing.JComponent" target="java.awt.Container" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="240.75" y="209.0" />
+      <point x="169.5" y="209.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.awt.Window" target="java.awt.Container" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="53.5" y="209.0" />
+      <point x="169.5" y="209.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.awt.Frame" target="java.awt.Window" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.awt.Container" target="java.awt.Component" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="javax.swing.JButton" target="javax.swing.JComponent" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="299.75" y="287.0" />
+      <point x="240.75" y="287.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="javax.swing.JPanel" target="javax.swing.JComponent" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="181.75" y="287.0" />
+      <point x="240.75" y="287.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="1.0" showDependencies="false" x="175.5" y="209.0" />
+  <SelectedNodes>
+    <node>javax.swing.JButton</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

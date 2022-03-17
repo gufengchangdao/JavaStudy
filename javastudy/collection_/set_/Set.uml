@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.Set</OriginalElement>
+  <nodes>
+    <node x="182.55405405405406" y="322.0">java.util.HashSet</node>
+    <node x="96.99324324324324" y="78.0">java.util.Collection</node>
+    <node x="0.0" y="240.0">java.util.AbstractSet</node>
+    <node x="165.49324324324323" y="158.0">java.util.Set</node>
+    <node x="198.55405405405406" y="402.0">java.util.LinkedHashSet</node>
+    <node x="104.99324324324324" y="0.0">java.lang.Iterable</node>
+    <node x="32.55405405405406" y="322.0">java.util.TreeSet</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.HashSet" target="java.util.Set" relationship="REALIZATION">
+      <point x="33.75" y="-14.0" />
+      <point x="283.80405405405406" y="300.0" />
+      <point x="240.75" y="300.0" />
+      <point x="240.75" y="218.0" />
+      <point x="215.99324324324323" y="218.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.TreeSet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="-32.5" y="-14.0" />
+      <point x="65.05405405405406" y="300.0" />
+      <point x="79.5" y="300.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Collection" target="java.lang.Iterable" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Set" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="215.99324324324323" y="132.0" />
+      <point x="207.99324324324323" y="132.0" />
+      <point x="37.0" y="14.0" />
+    </edge>
+    <edge source="java.util.AbstractSet" target="java.util.Set" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="79.5" y="208.0" />
+      <point x="215.99324324324323" y="208.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.AbstractSet" target="java.util.Collection" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="79.5" y="132.0" />
+      <point x="133.99324324324323" y="132.0" />
+      <point x="-37.0" y="14.0" />
+    </edge>
+    <edge source="java.util.HashSet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="-33.75" y="-14.0" />
+      <point x="216.30405405405406" y="300.0" />
+      <point x="79.5" y="300.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.util.HashSet" relationship="GENERALIZATION">
+      <point x="-39.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.util.Set" relationship="REALIZATION">
+      <point x="46.0" y="-14.0" />
+      <point x="335.05405405405406" y="172.0" />
+      <point x="50.5" y="0.0" />
+    </edge>
+    <edge source="java.util.TreeSet" target="java.util.Set" relationship="REALIZATION">
+      <point x="32.5" y="-14.0" />
+      <point x="130.05405405405406" y="290.0" />
+      <point x="169.5" y="290.0" />
+      <point x="169.5" y="218.0" />
+      <point x="215.99324324324323" y="218.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="1.0" showDependencies="false" x="190.0" y="215.0" />
+  <SelectedNodes>
+    <node>java.util.LinkedHashSet</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

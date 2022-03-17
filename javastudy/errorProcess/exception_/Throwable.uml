@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.lang.Throwable</OriginalElement>
+  <nodes>
+    <node x="175.0" y="78.0">java.lang.Throwable</node>
+    <node x="254.5" y="156.0">java.lang.Error</node>
+    <node x="196.0" y="234.0">java.io.IOException</node>
+    <node x="0.0" y="234.0">java.lang.RuntimeException</node>
+    <node x="116.5" y="156.0">java.lang.Exception</node>
+    <node x="171.5" y="0.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.lang.Throwable" target="java.io.Serializable" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.lang.Exception" target="java.lang.Throwable" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="175.5" y="131.0" />
+      <point x="236.0" y="131.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.lang.Error" target="java.lang.Throwable" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="296.5" y="131.0" />
+      <point x="236.0" y="131.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.lang.RuntimeException" target="java.lang.Exception" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="88.0" y="209.0" />
+      <point x="175.5" y="209.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.IOException" target="java.lang.Exception" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="263.0" y="209.0" />
+      <point x="175.5" y="209.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="1.0" showDependencies="true" x="169.5" y="131.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

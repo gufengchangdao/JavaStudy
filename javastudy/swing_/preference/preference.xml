@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE preferences SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<preferences EXTERNAL_XML_VERSION="1.0">
+  <root type="user">
+    <map/>
+    <node name="javastudy">
+      <map/>
+      <node name="swing_">
+        <map/>
+        <node name="preference">
+          <map>
+            <entry key="name" value="齐天大圣"/>
+            <entry key="age" value="20"/>
+            <entry key="isOld" value="false"/>
+            <entry key="property" value="9999.99"/>
+          </map>
+        </node>
+      </node>
+    </node>
+  </root>
+</preferences>

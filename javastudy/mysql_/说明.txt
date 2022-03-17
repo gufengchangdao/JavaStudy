@@ -1,0 +1,28 @@
+
+启动MYSQL(韩顺平java教学731集):
+    管理员身份打开cmd(左下角找到Windows系统，找到命令提示符并用管理员身份打开)
+    找到位置：cd /D D:\My tool\mysql\mysql-5.7.19-winx64\bin
+    启动MYSQL服务：net start mysql
+    停止MYSQL服务：net stop mysql
+    进入MYSQL管理终端：mysql -u root -p
+    输入密码
+    选择MYSQL数据库：use mysql;
+    修改 root 用户的密码为 hsp：
+        update user set authentication_string=password('hsp') where user='root' and Host='localhost';
+    刷新权限：flush privileges;
+    (如果出错了，就重新安装MYSQL，删除已经安装好的MYSQL服务(慎重)：sc delete mysql )
+
+    连接MYSQL数据库
+        mysql -h   主机名   -P  端口 -u 用户名 -p密码
+        mysql -h 127.0.0.1 -P 3306 -u root -phsp
+        (1)连接前要先启动MYSQL服务
+        (2)注意端口前面的P要大写。密码和-p之间没有空格
+        (3)如果没有写-h，默认就是本机
+        (4)如果没有写-P，默认就是3306，实际工作中一般都不是用3306
+        (5)-p后面如果没有密码，回车会要求输入密码
+
+go <-- \g <-- \G <-- ;
+    无所不在的分号命令结束符;实际上是/g命令的简写，而/g命令本身就是go命令的简写。
+    go命令在历史上和当前其他类型的SQL中都被用来提交一批命令，由服务器编译和/或解释。
+    /G命令似乎从/G继承了它的特征字母，并被大写以进一步表明修改的行为
+

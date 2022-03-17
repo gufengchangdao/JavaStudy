@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-01-06T03:39:57.867939200Z</date>
+  <millis>1641440397867</millis>
+  <nanos>939200</nanos>
+  <sequence>0</sequence>
+  <logger>src.javastudy.errorProcess.logger_.jul.formatter</logger>
+  <level>FINE</level>
+  <class>javastudy.errorProcess.logger_.jul.handler.LoggingImageViewer</class>
+  <method>lambda$main$0</method>
+  <thread>20</thread>
+  <message>Showing frame</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-01-06T03:40:49.066238300Z</date>
+  <millis>1641440449066</millis>
+  <nanos>238300</nanos>
+  <sequence>0</sequence>
+  <logger>src.javastudy.errorProcess.logger_.jul.formatter</logger>
+  <level>FINE</level>
+  <class>javastudy.errorProcess.logger_.jul.handler.LoggingImageViewer</class>
+  <method>lambda$main$0</method>
+  <thread>20</thread>
+  <message>Showing frame</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-01-06T03:41:03.008567700Z</date>
+  <millis>1641440463008</millis>
+  <nanos>567700</nanos>
+  <sequence>0</sequence>
+  <logger>src.javastudy.errorProcess.logger_.jul.formatter</logger>
+  <level>FINE</level>
+  <class>javastudy.errorProcess.logger_.jul.handler.LoggingImageViewer</class>
+  <method>lambda$main$0</method>
+  <thread>20</thread>
+  <message>Showing frame</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-01-06T03:42:33.309661600Z</date>
+  <millis>1641440553309</millis>
+  <nanos>661600</nanos>
+  <sequence>0</sequence>
+  <logger>src.javastudy.errorProcess.logger_.jul.formatter</logger>
+  <level>FINE</level>
+  <class>javastudy.errorProcess.logger_.jul.handler.LoggingImageViewer</class>
+  <method>lambda$main$0</method>
+  <thread>20</thread>
+  <message>Showing frame</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-01-06T03:44:40.128854300Z</date>
+  <millis>1641440680128</millis>
+  <nanos>854300</nanos>
+  <sequence>0</sequence>
+  <logger>src.javastudy.errorProcess.logger_.jul.formatter</logger>
+  <level>FINE</level>
+  <class>javastudy.errorProcess.logger_.jul.handler.LoggingImageViewer</class>
+  <method>lambda$main$0</method>
+  <thread>20</thread>
+  <message>Showing frame</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-01-06T03:45:06.494736500Z</date>
+  <millis>1641440706494</millis>
+  <nanos>736500</nanos>
+  <sequence>0</sequence>
+  <logger>src.javastudy.errorProcess.logger_.jul.formatter</logger>
+  <level>FINE</level>
+  <class>javastudy.errorProcess.logger_.jul.handler.LoggingImageViewer</class>
+  <method>lambda$main$0</method>
+  <thread>20</thread>
+  <message>Showing frame</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-01-06T03:45:26.809864500Z</date>
+  <millis>1641440726809</millis>
+  <nanos>864500</nanos>
+  <sequence>0</sequence>
+  <logger>src.javastudy.errorProcess.logger_.jul.formatter</logger>
+  <level>FINE</level>
+  <class>javastudy.errorProcess.logger_.jul.handler.LoggingImageViewer</class>
+  <method>lambda$main$0</method>
+  <thread>20</thread>
+  <message>Showing frame</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-01-06T04:14:45.948976900Z</date>
+  <millis>1641442485948</millis>
+  <nanos>976900</nanos>
+  <sequence>0</sequence>
+  <logger>src.javastudy.errorProcess.logger_.jul.formatter</logger>
+  <level>FINE</level>
+  <class>javastudy.errorProcess.logger_.jul.handler.LoggingImageViewer</class>
+  <method>lambda$main$0</method>
+  <thread>20</thread>
+  <message>Showing frame</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-01-06T04:15:34.357166800Z</date>
+  <millis>1641442534357</millis>
+  <nanos>166800</nanos>
+  <sequence>0</sequence>
+  <logger>src.javastudy.errorProcess.logger_.jul.formatter</logger>
+  <level>FINE</level>
+  <class>javastudy.errorProcess.logger_.jul.handler.LoggingImageViewer</class>
+  <method>lambda$main$0</method>
+  <thread>20</thread>
+  <message>Showing frame</message>
+</record>
+</log>
